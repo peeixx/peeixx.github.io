@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #102a39;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.brand {
+  margin-top: -7px;
+}
+
+.brand span {
+  color: #6ba9bf;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  font-weight: 600;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu .active {
+  color: #6ba9bf;
+}
+
+.menu a:hover {
+  background-color: #6ba9bf;
+  color: black;
+  transition: ease-in .4s;
+}
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.main img{
+  width: 350px;
+  border: 7px solid #6ba9bf;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1 span {
+  color: #6ba9bf;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: #6ba9bf;
+  margin-top: 10px;
+  margin-bottom: 2.5em;
+}
+
+.portfolio {
+  width: 100vw;
+  height: auto;
+  background-color: #313131;
+  color: white;
+}
+
+.portfolio-headings {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5em;
+}
+
+.portfolio-headings h2 {
+  font-size: 2.5em;
+}
+
+.portfolio .container {
+  width: 80vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  background-color: #5F5F5F;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.card__img1 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img10.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img2 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img3.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img3 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img4.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img4 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img5.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img5 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img9.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img6 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img6.jfif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img7 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img8 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img2.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img9 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img8.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img10 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/img11.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__title {
+  padding: 20px;
+}
+
+.card .project-details {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+  margin: 1em;
+  padding: 10px 20px;
+  background-color: #102a39;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.card .project-details:hover {
+  background-color: white;
+  color: black;
+}
+
+.project-details-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.3em;
+  width: 100%;
+}
+
+.contact-section {
+  background-color: #102a39;
+  padding: 5em;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.contact-headings h2 {
+  font-size: 2.5em;
+  color: white;
+}
+
+.container-contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.container-contact img {
+  width: 900px;
+  bottom: 0px;
+  opacity: 50%;
+}
+
+.contact-form h4 {
+  font-size: 1.5em;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+}
+
+.form input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.form textarea {
+  height: 150px;
+  background: none;
+  color: white;
+  padding: 1.5em;
+  border: 1px solid white;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: #6ba9bf;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 150px;
+  background-color: #313131;
+  color: white;
+}
+
+.footer-content h2 {
+  font-size: 2em;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  margin-top: 1em;
+}
+
+.social-network a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-network i {
+  font-size: 1.5em;
+}
+
+.social-network i:hover {
+  color: #6ba9bf;
+}
+
+.wrapper footer {
+  background-color: #102a39;
+}
+
+.work {
+  width: 100vw;
+  height: auto;
+  background-color: #313131;
+  color: white;
+}
+
+.work-header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5em;
+}
+
+.work-header h2 {
+  font-size: 2.5em;
+}
+
+.container-work {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2em;
+  align-items: center;
+}
+
+.container-work img {
+  width: 400px;
+  margin: 10px;
+}
+
+.container-work-a {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2em;
+  align-items: center;
+}
+
+.container-work-a img {
+  height: 700px;
+  margin: 10px;
+}
