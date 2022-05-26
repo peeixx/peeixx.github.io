@@ -315,6 +315,36 @@ h1 span {
   background-color: white;
 }
 
+.apps-section {
+  width: 100vw;
+  background-color: #313131;
+  color: white;
+  padding: 5em;
+  margin: 0 auto;
+}
+
+.apps-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.apps {
+  background-color: none;
+  margin: 1em;
+}
+
+.apps-container img{
+  width: 4em;
+  margin: 1em;
+}
+
+.apps-container img:hover {
+  width: 6em;
+  transition: ease-in .2s;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
